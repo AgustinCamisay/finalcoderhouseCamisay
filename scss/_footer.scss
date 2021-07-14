@@ -1,0 +1,41 @@
+footer {
+    background-color: black;
+    border: 1px solid  rgba(255, 255, 255, 0.219);
+    margin-top: 2rem;
+}
+footer .subtitulo_card{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario {
+    text-align: left;
+}
+
+.boton-enviar {
+    padding: 2rem 0;
+}
+
+.footer_contenedor {
+    margin-top: 2rem;
+}
+
+.footer-bg {
+    background-color: black;
+}
+
+.contenedor-icono {
+    padding: 2rem;
+    background-color: rgb(0, 0, 0);
+    transition: 0.7s;
+    border: 1px;
+    border-color: rgba(255, 255, 255, 0.219);
+    border-style: solid;
+
+    &:hover {
+        background-color: blue;
+    }
+}
+
+

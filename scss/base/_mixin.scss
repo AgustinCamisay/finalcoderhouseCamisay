@@ -1,0 +1,41 @@
+@mixin white-gradient {
+    background: linear-gradient(to right, rgb(55, 0, 255) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7))
+    }
+}
+
+
+.imagen-header{
+    background-size: contain;
+    background-position: center center;
+}
+
+
+@mixin bordeContainer ($borde) {
+    border-radius: $borde;
+}
+
+
+
+
+// HOVER SCALE@
+@mixin hoverscale ($size_scale) {
+    transform:scale($size_scale);
+}
+
+
+// HOVER COLOR
+@mixin hovercolor($color) {
+    color: $color;
+}
