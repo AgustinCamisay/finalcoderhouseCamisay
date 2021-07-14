@@ -584,6 +584,22 @@ img {
   height: 70vh;
 }
 
+.contacto {
+  background-image: url(../img/bg_home.jpeg);
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+}
+.contacto:hover {
+  border: 1px solid #0e479e;
+}
+
+.mapa {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 2rem;
+}
+
 .parrafoOperacion-6 {
   font-size: 3rem;
 }
@@ -1304,6 +1320,22 @@ img {
   height: 70vh;
 }
 
+.contacto {
+  background-image: url(../img/bg_home.jpeg);
+  padding: 2rem;
+  margin-top: 5rem;
+  border-radius: 2rem;
+}
+.contacto:hover {
+  border: 1px solid #0e479e;
+}
+
+.mapa {
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 2rem;
+}
+
 .parrafoOperacion-6 {
   font-size: 3rem;
 }
@@ -1591,6 +1623,12 @@ svg:hover {
 }
 .btn-comprar:hover {
   background-color: #252525;
+}
+
+.texto-contacto {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .parrafoOperacion-6 {

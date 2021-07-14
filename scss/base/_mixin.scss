@@ -16,7 +16,7 @@ $animationSpeed: 40s;
 }
 
 
-.imagen-header{
+.imagen-header {
     background-size: contain;
     background-position: center center;
 }
@@ -31,7 +31,7 @@ $animationSpeed: 40s;
 
 // HOVER SCALE@
 @mixin hoverscale ($size_scale) {
-    transform:scale($size_scale);
+    transform: scale($size_scale);
 }
 
 
@@ -39,3 +39,8 @@ $animationSpeed: 40s;
 @mixin hovercolor($color) {
     color: $color;
 }
+
+// HOVER SOMBREADO
+@mixin hovertransition ($duracion) {
+        transition: $duracion ease-in-out;
+    }
