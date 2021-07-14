@@ -2107,4 +2107,8 @@ footer .subtitulo_card {
   background-color: blue;
 }
 
+.footer-bg .row {
+  --bs-gutter-x: 0;
+}
+
 /*# sourceMappingURL=styles.css.map */
