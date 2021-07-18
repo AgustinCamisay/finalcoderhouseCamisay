@@ -80,12 +80,6 @@
 .card_carrito .card_imagen__home {
     border-radius: 1rem 1rem 0 0;
     transition: .5s;
-
-    &:hover {
-        -webkit-transform: scale(1.3);
-        transform: scale(1.08);
-        border-radius: 1rem;
-    }
 }
 
 .card_carrito .card-body {
@@ -108,7 +102,6 @@
 .card:hover {
     transform: translateY(-20px);
     box-shadow: -2px 0 30px $rojonba
-
 }
 
 

@@ -5,11 +5,17 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- fuentes -->
+
+    <!-- FUENTES -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,900&display=swap"
         rel="stylesheet">
+
+    <!-- ANIMACIONES -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +27,7 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <!-- Estilos -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/styles.css">
 
     <!-- Descripcion -->
     <meta name="description"
@@ -29,7 +35,7 @@
 
     <!-- KEYWORDS -->
     <meta name="keywords"
-        content="NBA, WARRIORS, LAKERS, DENVER, SUNS, BULLS, PORTLAND, SPURS, REMERA, TIENDA, BUCKS, ALL STAR">
+        content="NBA, WARRIORS, LAKERS, DENVER, SUNS, BULLS, PORTLAND, SPURS, REMERA, TIENDA, BUCKS, ALL, STAR">
 
     <!-- protocolo open graph -->
     <meta property="og:title" content="Travis Scott - Astroworld Fest">
@@ -42,9 +48,9 @@
     <!-- TITULO -->
     <title>Noticias | Tienda NBA</title>
 </head>
+
 <body>
     <header>
-
         <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-light menu" data-animation="center">
             <!-- <a class="navbar-brand" href="#">Navbar</a> -->
@@ -107,52 +113,54 @@
                             class="img_promo" alt="Imagen noticias slider">
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img_promo" alt="Imagen noticias slider">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img_promo"
+                            alt="Imagen noticias slider">
                     </div>
                     <div class="slide">
-                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img_promo" alt="Imagen noticias slider">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img_promo"
+                            alt="Imagen noticias slider">
                     </div>
                 </div>
             </div>
             </div>
         </section>
-
     </header>
 
+    <!-- NOTICIAS CON VIDEOS -->
     <section class="container homevideo">
-        <div class="home__menu ">
+        <div class="home__menu">
             <div class="text-center">
-                <h3 class="titulo">Semifinales OESTE</h3>
+                <h3 class="titulo" data-aos="flip-right">Semifinales OESTE</h3>
                 <h4 class="subtitulo_card">Bucks vs Atlanta Hawks</h4>
-                <iframe class="video__nosotros" src="https://www.youtube.com/embed/LLigNSe-hIM"
+                <iframe class="video__nosotros" data-aos="zoom-in" src="https://www.youtube.com/embed/LLigNSe-hIM"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
             <div class="text-center">
-                <h3 class="titulo">Semifinales ESTE</h3>
+                <h3 class="titulo" data-aos="flip-right">Semifinales ESTE</h3>
                 <h4 class="subtitulo_card">LA Clippers vs Phoenix Suns</h4>
-                <iframe class="video__nosotros" src="https://www.youtube.com/embed/1rvJI3_BVAQ"
+                <iframe class="video__nosotros" data-aos="zoom-in" src="https://www.youtube.com/embed/1rvJI3_BVAQ"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </div>
         </div>
-        <h4 class="subtitulo_card parrafoOperacion-2">Para no perderte ningun video seguinos en nuestro <strong>
-                <a href="https://www.youtube.com/watch?v=LLigNSe-hIM&feature=emb_logo">Canal </a>
+        <h4 class="subtitulo text-center">Para no perderte ningun video seguinos en nuestro <strong>
+                <a href="lakers.html">Canal</a>
             </strong>
             oficial.</h4>
     </section>
 
 
-    <!-- DESCRIPCION-->
+   <!-- MVPS DE LA TEMPORADA -->
     <div class="container equipo home__menu mb-5">
         <div class="equipo_descripcion">
             <div class="imagen__equipo">
-                <img class="imagen_descripcion" src="img/curry.jpeg" alt="Imagen top 3 2021">
+                <img class="imagen_descripcion" data-aos="flip-right" src="img/curry.jpeg" alt="Imagen top 3 2021">
             </div>
             <article class="descripcion_texto">
-                <h1 class="titulo">Stephen Curry</h1>
+                <h2 class="titulo" data-aos="flip-right">Stephen Curry</h2>
                 <p class="parrafo_container">Wardell Stephen Curry II es un jugador estadounidense de baloncesto que
                     pertenece al equipo
                     de los Golden State Warriors de la NBA. Ha sido tres veces campeón de la NBA y dos veces MVP de la
@@ -164,10 +172,10 @@
     <div class="container equipo home__menu mb-5">
         <div class="equipo_descripcion2">
             <div class="imagen__equipo">
-                <img class="imagen_descripcion" src="img/embib.jpeg" alt="Imagen top 3 2021">
+                <img class="imagen_descripcion" data-aos="flip-right" src="img/embib.jpeg" alt="Imagen top 3 2021">
             </div>
             <article class="descripcion_texto">
-                <h2 class="titulo">Joel Embiid</h2>
+                <h2 class="titulo" data-aos="flip-right">Joel Embiid</h2>
                 <p class="parrafo_container">Joel Hans Embiid es un jugador camerunés de baloncesto que pertenece a la
                     plantilla de los
                     Philadelphia 76ers. Con 2,13 metros de estatura, se desempeña en la posición de pívot.</p>
@@ -178,10 +186,10 @@
     <div class="container equipo home__menu mb-5">
         <div class="equipo_descripcion">
             <div class="imagen__equipo">
-                <img class="imagen_descripcion" src="img/jokic.jpg" alt="Imagen top 3 2021">
+                <img class="imagen_descripcion" data-aos="flip-right" src="img/jokic.jpg" alt="Imagen top 3 2021">
             </div>
             <article class="descripcion_texto">
-                <h2 class="titulo">Nikola Jokić</h2>
+                <h2 class="titulo" data-aos="flip-right">Nikola Jokić</h2>
                 <p class="parrafo_container">Nikola Jokić es un jugador profesional de baloncesto serbio que actualmente
                     pertenece a la
                     plantilla de los Denver Nuggets de la NBA, equipo que lo seleccionó en el puesto número 41 de la
@@ -194,7 +202,7 @@
 
     <!-- SECCION EQUIPOS -->
     <main class="container-cards">
-        <h2 class="text-center titulo-cartas">Equipos</h2>
+        <h2 class="text-center titulo-cartas" data-aos="flip-right">Equipos</h2>
         <section class="card-list">
 
             <article class="card">
@@ -348,16 +356,15 @@
     </footer>
 
 
-    <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
