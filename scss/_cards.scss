@@ -142,35 +142,6 @@
 }
 
 
-
-// CARDS NOTICIAS
-.home__menu {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
-    background-color: #ff8a00;
-    margin-bottom: 4rem;
-    gap: 1rem;
-    @include bordeContainer(1.51rem)
-}
-
-
-.imagen__home {
-    max-width: 100%;
-    align-items: center;
-    animation-duration: 2s;
-
-    &:hover {
-        -webkit-transform: scale(1.01);
-
-    }
-}
-
-
-
-
-// ACORDION
-
-
 .accordion-button {
     background-color: rgb(255, 0, 0);
 

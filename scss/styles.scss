@@ -296,9 +296,31 @@ body {
 
 }
 
-.home__menu{
+
+// CARDS NOTICIAS
+.home__menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+    margin-bottom: 4rem;
+    gap: 1rem;
+    @include bordeContainer(1.51rem);
     background-color: #ff8a00;
+
 }
+
+
+.imagen__home {
+    max-width: 100%;
+    align-items: center;
+    animation-duration: 2s;
+
+    &:hover {
+        -webkit-transform: scale(1.01);
+
+    }
+}
+
+
 
 
 .video__nosotros {
