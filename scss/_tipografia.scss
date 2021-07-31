@@ -57,11 +57,23 @@ h3 {
     }
 }
 
+
 .tituloh1 {
     color: white;
     font-size: 5rem;
     text-align: center;
     margin-top: 40vh;
+}
+
+.secciones .titulo {
+    color: $textonegro;
+    font-weight: bold;
+    padding-top: 1rem;
+
+    &:hover {
+        @include hoverscale (1.1);
+        color: $azulnba;
+    }
 }
 
 .parrafo {
@@ -88,11 +100,11 @@ h3 {
 
 .subtitulo_card {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 1rem;
-    color: $textoprincipal;
+    color: $textonegro;
     transition: 1s;
 
     &:hover {
@@ -248,7 +260,7 @@ svg {
 
 
 // CONTACTO
-.texto-contacto{
+.texto-contacto {
     color: $textoprincipal;
     font-weight: bold;
     font-size: 1rem;

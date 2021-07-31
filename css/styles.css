@@ -902,6 +902,16 @@ h3 {
   margin-top: 40vh;
 }
 
+.secciones .titulo {
+  color: #000;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+.secciones .titulo:hover {
+  transform: scale(1.1);
+  color: #0e479e;
+}
+
 .parrafo {
   font-size: 0.9rem;
 }
@@ -924,11 +934,11 @@ h3 {
 
 .subtitulo_card {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  color: #fff;
+  color: #000;
   transition: 1s;
 }
 .subtitulo_card:hover {
@@ -1492,6 +1502,10 @@ footer .subtitulo_card {
   margin-top: 2rem;
 }
 
+.footer_contenedor .subtitulo_card {
+  color: #fff;
+}
+
 .footer-bg {
   background-color: black;
 }
@@ -1546,7 +1560,7 @@ body {
 
 .secciones {
   width: 100%;
-  background-color: #ff8a00;
+  background-color: white;
   margin: 4rem 0;
 }
 
@@ -1562,12 +1576,16 @@ body {
   border: 1px solid white;
   width: 100%;
   transition: 2s;
+  border-radius: 1rem;
 }
 .img_home_menu:hover {
-  border: 1px solid red;
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   overflow: hidden;
+}
+
+.row {
+  margin-right: 0;
 }
 
 .video {

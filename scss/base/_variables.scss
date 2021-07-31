@@ -4,8 +4,10 @@ $rojonba: #d20428;
 $azulnba: #0e479e;
 
 
+
 // BORDES
 $fuentepricipal:'Roboto';
+
 @for $i from 6 through 1 {
     .parrafoOperacion-#{$i} {font-size: .5rem * $i};
 }
